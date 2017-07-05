@@ -66,6 +66,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="resources\systemjs\system-polyfills.js.map" />
+    <Content Include="resources\systemjs\system.js.map" />
+    <Content Include="resources\material-design-lite\material.min.js.map" />
+    <Content Include="resources\es6-promise\es6-promise.map" />
+    <Content Include="LICENSE" />
+    <Content Include="local.appcache" />
+    <Content Include="manifest.json" />
+    <Content Include="README.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -74,11 +82,55 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="browserconfig.xml" />
+    <Content Include="favicon.ico" />
+    <Content Include="icons\android-chrome-144x144.png" />
+    <Content Include="icons\android-chrome-192x192.png" />
+    <Content Include="icons\android-chrome-256x256.png" />
+    <Content Include="icons\android-chrome-36x36.png" />
+    <Content Include="icons\android-chrome-384x384.png" />
+    <Content Include="icons\android-chrome-48x48.png" />
+    <Content Include="icons\android-chrome-512x512.png" />
+    <Content Include="icons\android-chrome-72x72.png" />
+    <Content Include="icons\android-chrome-96x96.png" />
+    <Content Include="icons\apple-touch-icon-120x120.png" />
+    <Content Include="icons\apple-touch-icon-152x152.png" />
+    <Content Include="icons\apple-touch-icon-180x180.png" />
+    <Content Include="icons\apple-touch-icon-60x60.png" />
+    <Content Include="icons\apple-touch-icon-76x76.png" />
+    <Content Include="icons\apple-touch-icon.png" />
+    <Content Include="icons\favicon-16x16.png" />
+    <Content Include="icons\favicon-194x194.png" />
+    <Content Include="icons\favicon-32x32.png" />
+    <Content Include="icons\mstile-144x144.png" />
+    <Content Include="icons\mstile-150x150.png" />
+    <Content Include="icons\mstile-310x150.png" />
+    <Content Include="icons\mstile-70x70.png" />
+    <Content Include="icons\safari-pinned-tab.svg" />
+    <Content Include="index.html" />
+    <Content Include="js\app.js" />
+    <Content Include="js\carService.js" />
+    <Content Include="js\clientStorage.js" />
+    <Content Include="js\swRegister.js" />
+    <Content Include="js\template.js" />
+    <Content Include="resources\es6-promise\es6-promise.js" />
+    <Content Include="resources\fetch\fetch.js" />
+    <Content Include="resources\localforage\localforage-getitems.js" />
+    <Content Include="resources\localforage\localforage-setitems.js" />
+    <Content Include="resources\localforage\localforage.min.js" />
+    <Content Include="resources\material-design-lite\material.min.js" />
+    <Content Include="resources\material-design-lite\material.red-indigo.min.css" />
+    <Content Include="resources\systemjs\system-polyfills.js" />
+    <Content Include="resources\systemjs\system-polyfills.src.js" />
+    <Content Include="resources\systemjs\system.js" />
+    <Content Include="resources\systemjs\system.src.js" />
+    <Content Include="sw.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
